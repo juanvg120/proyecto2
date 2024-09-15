@@ -1,0 +1,27 @@
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+tr, td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+td {
+    background-color:blue;
+}
+td{text-align: justify;}
+tr{
+    text-align: center;
+    color:white;
+}
+body{
+    background-color:#00c4cc;
+    margin: 50px 30px;
+    line-height: 1.5;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    h1{font-family:Verdana, Geneva, Tahoma, sans-serif}
+    font-size: 15px;
+}

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #00c4cc;
+    height: 80px;
+    width: 100%px;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 80px; 
+   margin: 0 3px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.activate, li a:hover{
+    background: rgb(35, 154, 41);
+    transition: .5s;
+}
+.Imagen{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.checkbtn{
+    font-size: 30px;
+    color:rgb(13, 13, 162);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.titulo-texto{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
+    text-align: center;
+}
+.titulo-texto h2{
+    color:yellow;
+    font-size: 90px;
+    margin: 0;
+    font-family: cursive, Georgia, 'Times New Roman', Times, serif;
+}
+.PiePagina{
+    color: white;
+    text-align: center;
+    background-color: #00c4cc;
+    height: 100px;
+}
